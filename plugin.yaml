@@ -1,0 +1,18 @@
+# hermes-usage-pills — Hermes plugin manifest (unified package).
+#
+# Two halves, no agent tools or hooks (so no __init__.py):
+#   dashboard/  backend route GET /api/plugins/hermes-usage-pills/usage, mounted
+#               by the gateway's dashboard when this id is in plugins.enabled.
+#   desktop/    Hermes Desktop renderer: usage pills under the chat composer.
+name: hermes-usage-pills
+version: "1.1.0"
+description: >-
+  Provider usage pills under the Hermes Desktop chat composer: rate-limit
+  windows, credits and plan state for every connected provider at a glance,
+  with per-provider visibility, top/bottom placement and drain-edge options.
+author: Mark Beukers
+homepage: https://github.com/Shard/hermes-usage-pills
+license: MIT
+manifest_version: 2
+kind: standalone
+requires_hermes: ">=0.21.0"

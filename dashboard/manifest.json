@@ -1,0 +1,11 @@
+{
+  "name": "hermes-usage-pills",
+  "label": "Usage Pills",
+  "description": "Read-only provider limits, credits, and local Hermes usage statistics for the Desktop usage pills.",
+  "icon": "Graph",
+  "version": "1.1.0",
+  "tab": {
+    "hidden": true
+  },
+  "api": "plugin_api.py"
+}
