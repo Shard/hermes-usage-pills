@@ -1,4 +1,5 @@
 # hermes-usage-pills
+<img width="501" height="140" alt="image" src="https://github.com/user-attachments/assets/738be015-2085-4122-adfd-583ba70789d4" />
 
 Usage pills under the [Hermes Agent](https://github.com/NousResearch/hermes-agent)
 Desktop chat composer: one compact pill per connected provider showing its
